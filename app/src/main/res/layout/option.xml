@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="5dp"
+    android:background="@color/black"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="@drawable/design"
+            android:paddingVertical="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="80dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/l6"
+                    android:src="@drawable/sbi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/k1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textColor="@color/white"
+                android:padding="20dp"
+                android:textSize="13dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:src="@drawable/rightforward"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+

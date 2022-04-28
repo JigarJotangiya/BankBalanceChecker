@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:cardBackgroundColor="#0253B3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="30dp"
+                    android:layout_height="21dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Bank Balance Checker"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="90dp"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#1492F4"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="80dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:id="@+id/p1"
+                android:src="@drawable/sbi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State Bank Of India"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/design1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:padding="1dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="5dp"
+                android:text="Bank Balance"
+                android:textColor="@color/purple_700"
+                android:textSize="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                app:cardBackgroundColor="#02A517"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="15dp"
+                android:layout_gravity="center|left">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/card"
+                    android:layout_gravity="center|left">
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9898989898"
+                        android:layout_gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/call1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/call" />
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/idbtn"
+                android:src="@drawable/share"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:text="SHARE"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/purple_500"
+                android:textSize="11dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/design1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:padding="1dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="5dp"
+                android:text="Mini Statement"
+                android:textColor="@color/purple_500"
+                android:textSize="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                app:cardBackgroundColor="#02A517"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="15dp"
+                android:layout_gravity="center|left">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/card"
+                    android:layout_gravity="center|left">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1231231231"
+                        android:layout_gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/call2"
+                    android:src="@drawable/call"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/idbtn2"
+                android:src="@drawable/share"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:text="SHARE"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/purple_500"
+                android:textSize="11dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/design1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:padding="1dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="5dp"
+                android:text="Customer Care Number"
+                android:textColor="@color/purple_500"
+                android:textSize="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                app:cardBackgroundColor="#02A517"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="15dp"
+                android:layout_gravity="center|left">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/card"
+                    android:layout_gravity="center|left">
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5252525252"
+                        android:layout_gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/call3"
+                    android:src="@drawable/call"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/idbtn3"
+                android:src="@drawable/share"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:text="SHARE"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/purple_500"
+                android:textSize="11dp"
+                android:layout_marginRight="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
